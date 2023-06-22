@@ -1,7 +1,7 @@
 # Exercicios Mobile
 Exercicios da matéria de Desenvolvimento Para Dispositivos Móveis
 
-Foi-se utilizado as seguintes linguagens para os exercicios:
+Foi-se utilizado para os exercicios:
 
 - React JS
 - React Native
