@@ -1,0 +1,123 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  background-image: url("./Cyberpunk_2077_4K_AdobeExpress.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.App-header {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fdf500;
+  color: #282c34;
+}
+
+li span:first-child {
+  font-weight: bold;
+}
+
+li button {
+  background-color: #282c34;
+  color: #fdf500;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #37EBF3;
+  color: #282c34;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #fdf500;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #37EBF3;
+  color: #282C34;
+  
+}
+
+.title-border {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #fdf500;
+  font-size: 28px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px #37EBF3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.result-title-border {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #fdf500;
+  font-size: 24px;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 1px 1px #37EBF3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.winner-title-border {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #fdf500;
+  font-size: 24px;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 1px 1px #37EBF3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
